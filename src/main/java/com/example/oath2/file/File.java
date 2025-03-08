@@ -8,6 +8,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import org.springframework.hateoas.RepresentationModel;
+
 import java.util.UUID;
 
 @RequiredArgsConstructor
